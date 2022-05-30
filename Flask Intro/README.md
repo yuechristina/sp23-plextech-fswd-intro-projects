@@ -69,7 +69,7 @@ app.run(host='0.0.0.0', port=81)
 ```
 
 - Now run this code. While it is running, your server is on
-- If you want to update the server's source code, you must quit the server application (ctrl+c) and restart it
+- If you want to update the server's source code, you must quit the server application (ctrl+c) and restart it ("Debug mode" does this automatically)
 
 - While the code is running, enter `http://localhost:81/hello` in your browser. What does it show?
 - You can also try this out in postman as before
