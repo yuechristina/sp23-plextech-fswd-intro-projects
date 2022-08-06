@@ -133,7 +133,7 @@ def whatevername(name):
 ```html
 <html>
    <body>
-      <form action = "http://localhost:81/login" method = "PUT">
+      <form action = "http://localhost:81/login" method = "POST">
          <p>Enter Name:</p>
          <p><input type = "text" name = "username" /></p>
          <p><input type = "submit" value = "submit" /></p>
@@ -142,7 +142,7 @@ def whatevername(name):
 </html>
 
 ```
-- This is a form, that has our server's `/login` route as its submission URL using the method PUT. PUT works the same as POST (but has different conventions for use, which we ignore for now)
+- This is a form, that has our server's `/login` route as its submission URL using the method POST
 - When you click submit on this form, it sends a request to `/login` with a payload with keys and values corresponding to the form's inputs
 - Even though this is a key-value payload, it is formatted very differently from our JSON example from earlier. However Flask makes it simple and puts it as a dictionary in the `request.form` if the request has this format ("formdata")
 - You can send this kind of payload in Postman using the "x-www-form-urlencoded" option
