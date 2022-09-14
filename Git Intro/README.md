@@ -13,7 +13,7 @@ In Git, remotes allow access to modify or pull from other repositories. Let's st
 
 Type `git remote` to list out the current remotes associated with your repository. You should see "origin." This is an alias that refers to the original repository where the project was created. These provide us with a shorthand way to refer to other repositories when we want to work with them. While "origin" allows us to work with your personal project repository, you can add additional remotes to interact with other repositories. What we want to do now is add a remote to this repository to pull updates to the starter code for future projects.
 
-1. In your repository, type `git remote add starter https://github.com/devbali/sp-22-plextech-fswd-intro-projects.git`. This will add a remote from which you will be able to pull your starter code from. You should now see a new remote with `git remote`.
+1. In your repository, type `git remote add starter https://github.com/ivanm0/fa22-plextech-fswd-intro-projects.git`. This will add a remote from which you will be able to pull your starter code from. You should now see a new remote with `git remote`.
 2. Now we want to pull this README (along with any other starter code that may be present) into your project repository. Type `git pull starter main`.
 
 You should now be able to see the starter code that we currently have available. For the rest of this project, we will be working in the "Git Intro" project folder. Type `git log` and save a screenshot in this folder.
@@ -27,7 +27,7 @@ A "commit" is a list of changes that is stored by git. Committing only affects y
 2. Type `git commit -m "image added"` to commit your change.
 3. Type `git push origin main` to push your changes to the main branch.
 
-Now when you navigate to the repository on your Github, you should see all the starter code along with your screenshot in the "Git Intro" project folder. If your friend wanted to work with you on a project (like a [group project](https://github.com/devbali/sp-22-plextech-fswd-group-projects)), they would need to `git pull` the changes whenever you update the repository on your end to avoid any major merge conflicts.
+Now when you navigate to the repository on your Github, you should see all the starter code along with your screenshot in the "Git Intro" project folder. If your friend wanted to work with you on a project (like a [group project](https://github.com/ivanm0/fa22-plextech-fswd-group-projects)), they would need to `git pull` the changes whenever you update the repository on your end to avoid any major merge conflicts.
 
 Click the links for more information on [pushing](https://www.atlassian.com/git/tutorials/syncing/git-push) and [pulling](https://www.atlassian.com/git/tutorials/syncing/git-pull)
 
