@@ -158,3 +158,35 @@ The second option executes the function, returns the value and passes *that* int
 ### Congrats!
 
 You're all done with the project :) Make sure you add fun styles (if you want)
+
+### Group Project Portion
+
+This next section will be far more open-ended. We want to build a mini budget app with 2 pages:
+1. The first page is a data entry page where we can increment the number of items we have bought for each cateogry of food and see our current list of products we've bought.
+2. The second page will be a recommendation page where it makes you 2 recommendations (can be any recommendation you want): one must be based off the total money you've spent and the other must be the distribution of the items you've bought.
+
+Requirements for each page are below:
+0. General requirements
+- Using React Router to navigate between the 2 pages with buttons
+- At least 4 different components must be created
+1. The data entry page
+- You must have at least 3 different categories (ie. apples, donuts, and pizza) with each category having a predetermined price per item.
+- One counter for each category (split across in 3 different columns)
+- A list of products that gets modified each time you add or subtract an item. Each list item must contain the name and price of the item
+- Button that resets all purchases
+2. The recommendation page
+- Must have 2 recommendations displayed (one must be based off the total money you've spent and the other must be the distribution of the items you've bought)
+
+Hints:
+- You can pass data between pages using React Router
+- You can use display:grid or flex to do 3 columns for the counters
+- We can create separate useState variables for each purchase category (they can be declared in the page file and altered by the subcomponents). It is common practice to pass useState variables like "count" and "setCount" as args from a parent component to a child component.
+- 
+
+- The recommended file structure should be:
+- App.js (where the router would be located)
+- pages/
+- components/
+(Example components could be a custom button, the log counter, or the recommendations themselves)
+
+
