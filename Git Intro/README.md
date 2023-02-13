@@ -19,7 +19,7 @@ NOTE: For the rest of this project you will be working in pairs to simulate the 
 
 ### PART 1 - Person B only
 
-Clone down Person A's repository by visiting their forked Github link for their intro projects and following the same instructions for cloning:
+Clone down Person A's repository (MAKE SURE PERSON B HAS INVITED YOU TO THE GIT REPO FIRST!) by visiting their forked Github link for their intro projects and following the same instructions for cloning:
 
 1. Navigate back to Person A's forked main page and click the green "<> Code" icon
 2. Click the copy link icon for under the HTTPS tab to copy the link for your forked repo
