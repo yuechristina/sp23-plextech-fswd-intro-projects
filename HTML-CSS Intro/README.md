@@ -218,5 +218,10 @@ Try to style the boxes as closely to the solution image as possible don't worry 
 
 - Some width/height values we used are `20px`, `40px`, `80px`
 
+## JavaScript Assignment
+https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1
+
+Complete this quiz! For content not covered in lecture, just search it up :))
+
 ## Contributions
 Thank you to Brown University's CSCI 1320 for providing the spec and the starter code.
